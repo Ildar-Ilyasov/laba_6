@@ -13,7 +13,6 @@ public class laba_6 {
             System.out.println("Введите элемент массива:");
             array1[i] = input.nextInt();
         }
-        input.close();
         int[] result = mergesort(array1);
         System.out.println(Arrays.toString(result));
     }
